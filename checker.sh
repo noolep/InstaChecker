@@ -16,7 +16,7 @@ dependencies=("curl" "tor" "jq")
 for i in "${dependencies[@]}"
 do
     command -v $i >/dev/null 2>&1 || {
-        echo >&2 "${white}[ ${red}ERROR ${white}] Package ${green}${i} ${red}: ${white}Not installed ${red}- ${white}install first please, and run again my tools."
+        echo -e >&2 "${white}[ ${red}ERROR ${white}] Package ${green}${i} ${red}: ${white}Not installed ${red}- ${white}install first please, and run again my tools."
         exit
     }
 done
