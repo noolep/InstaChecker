@@ -1,2 +1,2 @@
-# instachecker
+# InstaChecker
 Nothing special except her~
